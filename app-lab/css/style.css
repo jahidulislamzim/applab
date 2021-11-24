@@ -1,0 +1,453 @@
+
+/**** Made By: Arifur Rahman Tushar 
+** Code By: Aminul Hasan Emon ****/
+
+
+
+/*! ================ Start Fonts Area ================== */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Semibold';
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Extrabold';
+    src: url('../fonts/Poppins-ExtraBold.ttf');
+}
+
+
+/*! ================ End Fonts Area ================== */
+
+
+
+
+
+
+
+/*! ================ Essential Area Start ================== */
+
+
+body {
+    font-family: 'Poppins';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section,
+footer {
+    padding: 4rem 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+
+/* ***** Navbar Toggler Icon ****** */
+
+.navbar-toggler{color:rgba(0,0,0,.55);border-color:rgba(0,0,0,.1)} .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
+
+
+/*! ================ Essential Area End ================== */
+
+
+
+
+/*! ================ Header Area Start ================== */
+/*! ================ Header Area End ================== */
+
+
+
+/*! ================ Header Area Start ================== */
+
+header.header-area {
+    background: url('../images/bg/Home-page.png') no-repeat center center / cover;
+}
+
+/* ***** Navigation ***** */
+
+.nav-link {
+    color: #242f51;
+    font-family: 'Poppins';
+    font-size: 17px;
+    transition: .4s ease;
+    margin: auto 10px;
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: #2500f9;
+}
+
+/* ***** Try For Free Button ****** */
+
+.navbar-nav .try-for-free {
+    margin-right: 0 !important;
+}
+
+/* ****** Starting ****** */
+
+
+.buttons .watch-demo-video:hover {
+    padding:10px;
+    border:2px solid #2500f9;
+    border-radius: 50px;
+    color:#f55767;
+}
+
+.header-area .trending {
+    background-color: #e2eaed;
+    border-radius: 60px;
+    display: inline-block;
+    text-align: center;
+    padding: 0 1rem 0 0;
+}
+
+.header-area .trending span {
+    font-family: 'Poppins';
+}
+
+.header-area .right-img img {
+    width: 70%;
+}
+
+
+
+/*! ================ Header Area End ================== */
+
+
+/*! ================ Trusted Companies Area Start ================== */
+
+.trusted-companies {
+    background: url('../images/bg/image-1-2.png') no-repeat bottom right;
+    text-align: center;
+    padding: 7rem;
+}
+
+.trusted-companies h3 {
+    font-size: 18px;
+    font-family: 'Poppins-Semibold';
+    line-height: 1.5;
+}
+
+.trusted-companies .single-brand img {
+    transition: .4s ease;
+    border: 1px solid transparent;
+}
+.trusted-companies .single-brand img:hover {
+    box-shadow: 0 0 5px 3px rgba(170, 170, 170, .5);
+    border: 1px solid  rgba(170, 170, 170, .5);
+}
+
+
+/*! ================ Trusted Companies Area End ================== */
+
+
+/*! ================ Apps Features Area Stats ================== */
+
+.apps-features {
+    background: #fcfbfb;
+}
+
+.apps-features .left-img img {
+    width: 80%;
+}
+
+.apps-features .features .features-item .right {
+    width: 60%;
+    padding-left: 1.5rem;
+}
+.apps-features .right-area > p {
+    width: 80%;
+}
+
+
+/*! ================ Apps Features Area Ends ================== */
+
+
+
+
+
+
+/*! ================ Smart Jeckpots Area Starts ================== */
+
+.smart-jeckpots .heading-1 {
+    width: 80%;
+    margin-left: 3rem;
+}
+.smart-jeckpots .sm {
+    margin-left: 3rem;
+    width: 80%;
+}
+
+.smart-jeckpots .jeckpots .img {
+    margin-bottom: 2rem;
+}
+
+
+
+.smart-jeckpots .jeckpots {
+    margin-top: 6rem;
+}
+
+
+
+
+/*! ================ Smart Jeckpots Area Ends ================== */
+
+
+/*! ================ Latest Coding Area Starts ================== */
+
+.latest-coding {
+    background: #fcfbfb;
+}
+
+
+/*! ================ Latest Coding Area Ends ================== */
+
+
+
+/*! ================ App Funtions area Starts ================== */
+
+
+
+.app-funtions .m-container {
+    width: 70%;
+    margin: auto;
+}
+
+.app-funtions .text {
+    width: 80%;
+}
+.app-funtions .features .feature-item {
+    transition: .4s ease;
+}
+
+
+/*! ================ App Funtions area Ends ================== */
+
+
+/*! ================ Features area Starts ================== */
+
+.features-area {
+    background: #fcfbfb;
+}
+
+.features-area .m-container {
+    width: 80%; 
+    margin: auto;
+}
+.features-area .top-img {
+    margin-bottom: 1.5rem;
+}
+.features-area .top {
+    width: 80%;
+}
+
+
+
+/*! ================ Features area Ends ================== */
+
+
+/*! ================ Pricing area Starts ================== */
+
+.pricing .top {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.pricing .m-container {
+    width: 80%;
+    margin: auto;
+}
+.pricing .pricing-card .buttons {
+    width: 50%;
+    border-radius: 80px;
+    background: #fcfbfb;
+    border: 1px solid #dadada;
+    padding: 5px;
+}
+
+.pricing .pricing-card {
+    padding-top: 8rem;
+}
+
+.pricing .pricing-card .top {
+    padding: 2rem 0;
+    background: #f6f8fa;
+}
+.pricing .pricing-card .top .heading-2 {
+    margin-bottom: .5rem;
+}
+.pricing .pricing-card .top .doller {
+    font-size: 3.5rem;
+    font-family: 'Poppins-Bold';
+}
+
+.pricing .pricing-card .bottom {
+    text-align: center;
+}
+.pricing .pricing-card .bottom .check {
+    color: #2500f9;
+}
+
+.pricing .pricing-card .card {
+    border: none;
+    padding: 0;
+    transition: .4s ease ;
+}
+
+.pricing .pricing-card .bottom .left-align {
+    text-align: left;
+}
+
+.pricing .pricing-card .card:hover {
+    box-shadow: 0 0 5px 3px rgba(170, 170, 170, .5);
+}
+
+/*! ================ Pricing area ends ================== */
+
+
+/*! ================ Reviews area Starts ================== */
+
+.reviews {
+    background: #fcfbfb;
+}
+
+
+/*! ================ Reviews area Ends ================== */
+
+
+/*! ================ Questions area Stats ================== */
+
+.questions .question-container {
+    width: 70%;
+    margin: auto;
+}
+
+.question-ans,
+.primary-questions {
+    background: #f5f7fa;
+}
+.questions .question-ans .heading-2 {
+    margin-bottom: 2rem;
+}
+
+.footer .social-links a:hover {
+    color: white;
+}
+
+/*! ================ Footer area Ends ================== */
+
+
+
+
+/*! ================ Utility Clases ================== */
+
+.primary-btn {
+    height: 55px;
+    width: 170px;
+    border-radius: 60px;
+    background: #2500f9;
+    text-decoration: none;
+    border: 2px solid transparent;
+    color: white;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: 'Poppins-Semibold';
+    transition: .4s ease;
+        align-items: center;
+    justify-content: center;
+}
+.primary-btn:hover {
+    background: transparent;
+    color: #2500f9;
+    border:2px solid #2500f9;
+}
+.heading-1 {
+    font-size: 2rem;
+    font-family: 'Poppins-Semibold';
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+.heading-2 {
+    font-size: 1.3rem;
+    margin-bottom: .8rem;
+}
+
+.pera {
+    font-size: 16px;
+    color: #616368;
+    line-height: 1.5;
+}
+.red-heading {
+    color: #f55767;
+}
+.blue-heading {
+    color: #2563ff;
+}
+.green-heading {
+    color: #40975f;
+}
+.w-80 {
+    width: 80%;
+    margin: auto;
+}
+
+/*! ================ Utility Clases ================== */
+
+
+
+/*! ================ Responsive area Starts ================== */
+
+/* ***** Tab Media **** */
+
+@media (min-width:768px) {
+    .smart-jeckpots .border-right {
+        border-right: 1px solid #b9b9b8;
+    }
+}
+
+/* ***** Computer Device ****** */
+
+@media (max-width: 992px) {
+    .jeckpots .text {
+        width: 60%;
+    }
+    .features-area .left .row .col {
+        width: 80%;
+        margin: 1rem auto;
+    }
+        
+
+
+/* ***** Mobile Device ****** */
+
+@media (min-width: 576px) {
+    .pricing .m-container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/*! ================ Responsive area Ends ================== */
